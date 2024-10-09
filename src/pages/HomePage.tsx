@@ -32,6 +32,7 @@ const HomePage = () => {
             dataIndex: 'salary',
             key: 'salary',
             render: (salary: number) =>
+                // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl
                 `${new Intl.NumberFormat('en-US', {
                     style: 'currency',
                     currency: 'USD',
