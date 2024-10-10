@@ -7,7 +7,7 @@ import ViteLogo from '../assets/vite.svg?react';
 const { Content, Footer, Header, Sider } = Layout;
 
 const MainLayout = () => {
-    const [collapsed, setCollapsed] = useState(false);
+    const [collapsed, setCollapsed] = useState(true);
 
     return (
         <Layout className="min-h-screen">
